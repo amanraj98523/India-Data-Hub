@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.login-container {
+  width: 320px;
+  margin: 100px auto;
+  padding: 20px;
+  background: white;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: #fff;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+/* ===== LOGIN PAGE ===== */
+
+.login-wrapper {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fb;
+}
+
+.login-card {
+  width: 360px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.login-icon {
+  width: 40px;
+  height: 40px;
+  background: #1e1e6a;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+}
+
+.login-card h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 10px;
+  background: #1e1e6a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login-card button:hover {
+  background: #15154d;
+}
+
+.login-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.login-links a {
+  color: #1e1e6a;
+  text-decoration: none;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* ===== NAVBAR ===== */
+/* ===== INDIA DATA HUB NAVBAR ===== */
+
+.idh-navbar {
+  height: 64px;
+  background: #1e1e6a;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 25px;
+  color: white;
+}
+
+/* LOGO */
+.idh-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.idh-logo-icon {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.idh-logo-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.idh-logo-sub {
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+/* SEARCH */
+.idh-search {
+  flex: 1;
+}
+
+.idh-search input {
+  width: 100%;
+  max-width: 420px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+}
+
+/* MENU */
+.idh-menu {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.idh-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.idh-item:hover {
+  text-decoration: underline;
+}
+
+/* LOGIN */
+.idh-login-btn {
+  background: #0b0f3b;
+  border: none;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.idh-login-btn:hover {
+  background: #070a2a;
+}
+
+
+/* ===== BASE NAVBAR ===== */
+.idh-navbar {
+  background: #1e1e6a;
+  color: white;
+  height: 64px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* LOGO */
+.idh-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.idh-logo-icon {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.logo-text-wrap {
+  display: block;
+}
+
+/* DESKTOP CONTENT */
+.idh-desktop {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* SEARCH */
+.idh-search input {
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+/* MENU */
+.idh-menu {
+  display: flex;
+  gap: 16px;
+}
+
+.idh-item {
+  cursor: pointer;
+}
+
+/* LOGIN BUTTON */
+.idh-login-btn {
+  background: #0b0f3b;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* HAMBURGER */
+.idh-hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* MOBILE MENU */
+.idh-mobile-menu {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  background: #1e1e6a;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 1000;
+}
+
+/* ===== BREAKPOINT: 750px ===== */
+@media (max-width: 750px) {
+
+  /* Desktop content hide */
+  .idh-desktop {
+    display: none;
+  }
+
+  /* Hamburger show */
+  .idh-hamburger {
+    display: block;
+  }
+
+  /* Logo text hide (sirf icon rahe) */
+  .logo-text-wrap {
+    display: none;
+  }
+}
