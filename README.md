@@ -1,15 +1,16 @@
 # 📊 India Data Hub Dashboard
 
-🔗 **Live Demo:**  
-https://stupendous-sundae-e35c52.netlify.app/
-
----
 
 ## 📌 Project Description
 
 India Data Hub Dashboard is a responsive React.js web application that allows users to explore and switch between multiple economic datasets such as **Economic Monitor** and **IMF Dataset**.
 
 The application demonstrates clean UI design, authentication-based navigation, responsive layout, and performance handling for large datasets.
+
+---
+
+🔗 **Live Demo:**  
+https://stupendous-sundae-e35c52.netlify.app/
 
 ---
 
@@ -54,7 +55,7 @@ The application demonstrates clean UI design, authentication-based navigation, r
 ---
 
 ## 📁 Project Structure
-
+<pre>
 src/
 ├── components/
 │   ├── Login.jsx
@@ -76,7 +77,12 @@ src/
 │
 ├── App.jsx
 ├── main.jsx
-└── index.css
+├─index.css
+</pre>
+
+
+
+
 
 
 
